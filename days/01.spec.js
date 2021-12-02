@@ -1,7 +1,7 @@
-const day = require('./01')
+const day01 = require('./01')
 
 describe('day1', function() {
   it('should asd', function() {
-    expect(1).to.eql(1)
+    expect(day01()).to.eql(123)
   })
 })
